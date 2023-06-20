@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+
+        <form class="container" id="form">
+            <section class="texto">
+                <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </section>
+            <section class="form">
+
+                <div class="campo margin">
+                    <input type="text" name="nome-completo" id="nome" class="input" placeholder="Nome completo *">
+                    <small class="required">campo obrigatório</small>
+                </div>
+
+                <div class="campo margin">
+                    <input type="email" name="email" id="email" class="input" placeholder="Email *">
+                    <small class="required">campo obrigatório</small>
+                </div>
+
+                <div class="campo margin">
+                    <input type="tel" name="telefone" id="telefone" class="input" placeholder="Telefone *">
+                    <small class="required">campo obrigatório</small>
+                </div>
+
+                <div class="campo margin">
+                    <textarea name="mensagem" id="mensagem" class="input mensagem " placeholder="Mensagem *"></textarea>
+                    <small class="required">campo obrigatório</small>
+                </div>
+
+                <p>*campos obrigatório</p>
+
+                <button type="submit" class="btn-enviar" id="btn-enviar">Enviar</button>
+            </section>
+        </form>
+
+        <script src="./js/form.js"></script>
+    </main>
+</body>
+
+</html>
